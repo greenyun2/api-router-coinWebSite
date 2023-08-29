@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "jsx": "preserve",
+    "outDir": "dist",
+    "strict": true,
+    "moduleDetection": "force",
+    "moduleResolution": "Node",
+    "noImplicitAny": true,
+    "allowJs": true,
+    "strictPropertyInitialization": false,
+    "strictNullChecks": false,
+    "allowSyntheticDefaultImports": true,
+  }, 
+  "ts-node": {
+    "esm": true
+  },
+  "include": ["src"]
+}
